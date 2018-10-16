@@ -83,9 +83,9 @@ body {
   height: 100%;
   overflow: hidden;
   margin: 0;
- /* display: flex;*/
+  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap
   font-family: 'Open Sans Condensed', sans-serif;
   display:left;
 }
