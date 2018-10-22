@@ -1,5 +1,5 @@
 body {
-    background-color: lightskyblue;
+  background-color:rgb(2,201,201);
 }
 
 .susanne {
@@ -7,17 +7,69 @@ body {
     height: 8%;
     border-radius:20px;
     position: relative;
+    font-family: 'Amatic SC', cursive; 
+    font-size: xx-large;
 }
 
-#container {
-  position: relative;
-  -webkit-backface-visibility: hidden;
+.flex-container {
+display:flex;
+flex-direction:row;
+max-width: 100%;
+font-family: "Raleway";
+font-weight: 400;
+float:left;
+
 }
-#header {
-  position: absolute;
-  top: 17px;
-  right:0;
+
+.nav ul {
+  float: right;
+  margin: 15px 5px;
 }
+
+.nav li {
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  /* color: #d9dce2; */
+  color: #fcfcfc;
+}
+
+.nav a:hover {
+  border-bottom: 1px solid #fcfcfc;
+}
+
+@media (max-width: 532px) {
+  .nav ul {
+      display: none;
+  }
+
+  h1 {
+    font-family: 'Amatic SC', cursive; 
+    font-size: xx-large;
+
+  }
+  h2 {
+    font-family: 'Amatic SC', cursive; 
+    text-align: center;
+  }
+  p {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+  }
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    width:960px;
+  }
+  
+  p{
+    color:#525252;
+    font-size:12px;
+  }
+
 
 /* Navbar 
 
@@ -76,60 +128,16 @@ button {
     padding-bottom: 20px;
   }
   
-  .nav img {
-    width: 220px;
-    margin-top: 5px;
-    margin-left: 10px;
-  }
-  
-  .nav ul {
-    float: right;
-    margin: 15px 5px;
-  }
-  
-  .nav li {
-    display: inline-block;
-    padding: 0 8px;
-  }
- 
-  .nav a:hover {
-    border-bottom: 1px solid #fcfcfc;
-  }
-*/
-/* @media (max-width: 532px) {
-    .nav ul {
-        display: none;
-    }
-  }*/
-  h1 {
-    font-family: 'Amatic SC', cursive; 
-    font-size: xx-large;
 
-  }
-  h2 {
-    font-family: 'Amatic SC', cursive; 
-    text-align: center;
-  }
-  p {
-    font-family: 'Shadows Into Light', cursive;
-    text-align: center;
-  }
-  body {
-    font-family: 'Ubuntu', sans-serif;
-    width:960px;
-  }
-  
-  p{
-    color:#525252;
-    font-size:12px;
-  }
+  }*/
+ 
 
     
 
 
 
-/*
- site nav 
+
+ /*site nav */
 
   @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
@@ -144,7 +152,7 @@ body {
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
-  /*justify-content: space-between;
+  justify-content: space-between;
   flex-wrap: wrap;
   float:left;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -155,7 +163,7 @@ float:left;
 display:flex;
 
 }
-/*div[class*=boxes] {
+div[class*=boxes] {
   height: 10%;
   width: 100%; 
   display: left;
