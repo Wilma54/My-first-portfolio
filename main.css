@@ -239,11 +239,7 @@ menu a ::before {
   @-webkit-keyframes B2B   { 0%  { width:0px;} 100%{ width:100%;}  }
 
   /* Contact */
-  body {
-    margin: 0;
-    font-size: 21px;
-    box-sizing: border-box;
-  }
+
   
   .absolute {
     position: absolute;
@@ -251,7 +247,7 @@ menu a ::before {
   
   input,
   textarea {
-    font-family: "Homemade Apple";
+    font-family: 'Amatic SC', cursive; 
     background: transparent;
     border: none;
   }
@@ -265,43 +261,46 @@ menu a ::before {
   }
   
   .postcard {
+    font-size:23px;
+    box-sizing:border-box;
     position: relative;
     width: 740px;
     height: 498px;
     margin: 0 auto;
     background: url('https://developer.mozilla.org/files/4151/background.jpg'); /*img from: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms */
-    font-family: "MedievalSharp";
+    font-family: 'Amatic SC', cursive; 
     border: 2px solid #ccc;
     box-shadow: 7px 7px 20px #555;
   }
   
-  .receiver {
+  .name {
     right: 40px;
     top: 185px;
   }
   
-  .sender {
+  .email {
     right: 40px;
     top: 235px;
   }
   
-  .reply {
+  .message {
     right: 40px;
     top: 290px;
   }
   
-  .message {
-    left: 25px;
+  .contact {
+    left: 40px;
     top: 100px;
   }
   
-  .message textarea {
+  .contact textarea {
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
     font-size: 0.7em;
     background: transparent;
-    letter-spacing: 3px;
-    line-height: 1.5em;
+    letter-spacing: 2px;
+    line-height: 1,5em;
+    overflow: auto;
   }
   
   .send-btn {
