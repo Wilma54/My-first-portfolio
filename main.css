@@ -247,9 +247,8 @@ menu a ::before {
   
   input,
   textarea {
-    font-family: 'Amatic SC', cursive; 
-    background: transparent;
-    border: none;
+  font-family: 'Amatic SC', cursive; 
+  border-radius: 10px;
   }
   
   input {
@@ -264,12 +263,13 @@ menu a ::before {
     font-size:23px;
     box-sizing:border-box;
     position: relative;
+    background:url("images/postcard.jpg"); /*köp vykort plus frimärke*/
+    background-image: url("images/frimärke.jpeg");
     width: 740px;
     height: 498px;
     margin: 0 auto;
-    background: url('https://developer.mozilla.org/files/4151/background.jpg'); /*img from: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms */
     font-family: 'Amatic SC', cursive; 
-    border: 2px solid #ccc;
+    background: transparent;
     box-shadow: 7px 7px 20px #555;
   }
   
@@ -295,7 +295,7 @@ menu a ::before {
   
   .contact textarea {
     margin-top: 10px;
-    padding: 20px;
+    padding: 0px;
     font-size: 0.7em;
     background: transparent;
     letter-spacing: 2px;
@@ -323,8 +323,4 @@ menu a ::before {
     top: 362px;
   }
   
-  textarea:focus,
-  input:focus,
-  button:focus {
-    outline-color: #ccc;
-  }
+ 
