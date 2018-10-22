@@ -11,59 +11,24 @@ body {
     font-size: xx-large;
 }
 
-.menu {
-display:flex;
-flex-direction:row;
-max-width: 100%;
-font-family: "Raleway";
-font-weight: 400;
-float:left;
-
-}
-
-.nav ul {
-  float: left;
-  margin: 15px 5px;
-}
-
-.nav li {
-  display: inline-block;
-  padding: 0 8px;
-}
-
-.nav a:link,
-.nav a:visited {
-  text-decoration: none;
-  /* color: #d9dce2; */
-  color: #fcfcfc;
-}
-
-.nav a:hover {
-  border-bottom: 1px solid #fcfcfc;
-}
-
-@media (max-width: 532px) {
-  .nav ul {
-      display: none;
-  }
-
   h1 {
     font-family: 'Amatic SC', cursive; 
     font-size: xx-large;
-
   }
+
   h2 {
     font-family: 'Amatic SC', cursive; 
     text-align: center;
   }
+  
   p {
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
   }
-  body {
+ /* body {
     font-family: 'Ubuntu', sans-serif;
     width:960px;
-  }
+  } */
   
   p{
     color:#525252;
@@ -72,10 +37,19 @@ float:left;
 /* Font import */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
-* {
-  box-sizing: border-box;
+/** {
+  box-sizing: content-box;
   padding: 0;
   margin: 0;
+}*/
+header {
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+  display:flex;
+  align-items:center;
+  justify-content: baseline;
+  float:right;
+  right:10em;
 }
 
 ul {
@@ -86,25 +60,13 @@ a {
   text-decoration: none;
 }
 
-html,
-body {
-  height: 100%;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .navigation {
   display: flex;
 }
 
 .menu { 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   
 @media  (--min-sm) {
     flex-direction: row;
@@ -114,41 +76,36 @@ body {
 .menu > li {
   @media (--min-sm) {
     &:not(:last-child) {
-      margin-right: 40px;
+      margin-left: : 40px;
     }
   }
 }
 
-
 .menu a {
   position: relative;
   display: inline-block;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
   color: #666;
   transition: color .2s ease;
   padding: 3px 0;
-  margin-bottom: 10px;
-  
-  {
-    color: #aaa;
+  margin-bottom:10px;
+  color:black;
 }
 #a::after,::before {
       width: 100%;
       left: 0;
     }
-     }
-}
 
 .menu a ::after, ::before {
     content: ''; 
     position: absolute;
     top: calc(100% + 5px);
     width: 0;
-    right: 0;
+    right: 10px;
     height: 3px;
   }
-}
+
   
 menu a ::before {
     transition: width .25s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
@@ -159,187 +116,13 @@ menu a ::before {
     transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
     background: #F44336;
   }
- 
-}
-
-/* Navbar 
-
-.flex-container {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
- justify-content: flex-start;
- align-items: flex-start;
-}
-
-header {
-    max-width: 100%;
-    font-family: 'Rokkitt', serif;
-    font-weight: 400;
-  }
-
-/*
-button {
-  border: none;
-  background: #66b3cc;
-  color: #f2f2f2;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 5px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  float:left;
-  margin-left: 150px;
-  transition: all 500ms ease; 
-  transform-style:preserve-3d;
-   }
-      
-  button:after {
-  top: -100%;
-  left:0px;
-  width: 100%;
-  position: absolute;
-  background: #3a9999;
-  border-radius:5px;
-  content: 'Push Me';
-  transform-origin: left bottom;
-  transform: rotateX(90deg);
-      }
-      
-  button:hover {
-  transform-origin: center bottom;
-  transform: rotateX(-90deg) translateY(100%);
-      }
-
- /* 
-  .school {
-    display: inline-block;
-    margin: 10px 5px;
-    padding-bottom: 20px;
-  }
-  
-
-  }*/
- 
-
-    
 
 
+   /*Skills Bar*/
 
-
- /*site nav */
-
-  @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
-
-
-}
-html,
-body {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  float:left;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.boxes {
-float:left;
-display:flex;
-
-}
-div[class*=boxes] {
-  height: 10%;
-  width: 100%; 
-  display: left;
-  justify-content: center;
-  align-items: center;
-}
-
-.boxes { background-color: deepskyblue; }
-
-.btn {
-    line-height: 50px;
-    height: 50px;
-    text-align: center;
-    width: 120px;
-    cursor: pointer;
-}
-#navlist li {    
-  display:inline;
-  margin-right: 30px;
-}
-
-/*
-========================
-      BUTTON 
-========================
-
-.btn {
-    color: #FFF;
-    transition: all 0.3s;
-    position: relative;
-}
-#navlist a {
-    transition: all 0.3s;
-  
-}
-.btn ::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: rgba(255,255,255,0.5);
-    border-bottom-color: rgba(255,255,255,0.5);
-    transform: scale(0.1, 1);
-}
-#navlist:hover a {
-    letter-spacing: 2px;
-}
-.btn:hover::before {
-    opacity: 1; 
-    transform: scale(1, 1); 
-}
-.btn::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: all 0.3s;
-    background-color: rgba(255,255,255,0.1);
-}
-.btn:hover::after {
-    opacity: 0; 
-    transform: scale(0.1, 1);
-}
-
-#navlist a:hover {
-color: red;
-} 
-
-   /*Skills Bar
-
-  #skill { 
+   #skill {
     list-style: none;
-    font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font: 12px "Helvetica Neue", Arial, Helvetica,  sans-serif;
     width: 296px;
     margin: 50px auto 0;
     position: relative;
@@ -379,7 +162,7 @@ color: red;
   }
   
   .HTML {
-    width:100%; 
+    width:50%; 
     -moz-animation:HTML 2s ease-out;
     -webkit-animation:HTML 2s ease-out;
     background-color: #f674a4;
@@ -392,7 +175,7 @@ color: red;
   }
   
   .CSS {
-    width:90%;
+    width:50%;
     -moz-animation:CSS 2s ease-out;
     -webkit-animation:CSS 2s ease-out;
     background-color: #f0bb4b;
@@ -405,7 +188,7 @@ color: red;
   }
   
   .JS {
-    width:65%;
+    width: 20%;
     -moz-animation:JS 2s ease-out;
     -webkit-animation:JS 2s ease-out;
     background-color: #a1ce5b;
@@ -416,40 +199,42 @@ color: red;
     background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
     background-image: linear-gradient(top, #a1ce5b, #91ba52);
   }
-  
+ 
   .Problemsolver {
-    width:80%;
-    -moz-animation:Problem Solver 2s ease-out;
-    -webkit-animation:Problem Solver 2s ease-out;
+    width:100%;
+    -moz-animation:ProblemSolver 2s ease-out;
+    -webkit-animation:ProblemSolver 2s ease-out;
     background-color: #66b3cc;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
     background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
     background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
     background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
     background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
-    background-image: linear-gradient(top, #66b3cc, #5da3ba)	
+    background-image: linear-gradient(top, #66b3cc, #5da3ba);	
   }
   
   .B2B {
-    width:80%;
-    -moz-animation:Problem Solver 2s ease-out;
-    -webkit-animation:Problem Solver 2s ease-out;
+    width:100%;
+    -moz-animation:B2B 2s ease-out;
+    -webkit-animation:B2B 2s ease-out;
     background-color:#800080;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#800080), to#590059));
     background-image: -webkit-linear-gradient(top, #800080, #590059);
-    background-image: -moz-linear-gradient(top, #800080, #590059;
+    background-image: -moz-linear-gradient(top, #800080, #590059);
     background-image: -ms-linear-gradient(top, #800080, #590059);
     background-image: -o-linear-gradient(top, #800080, ##590059);
-    background-image: linear-gradient(top,#800080, #590059)	
+    background-image: linear-gradient(top,#800080, #590059);	
   }
 
-  @-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
-  @-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-  @-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-  @-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+  @-moz-keyframes HTMK {0%  { width:0px;} 100%{ widows: 50px;%;}  }
+  @-moz-keyframes CSS      { 0%  { width:0px;} 100%{ width:50%;}  }
+  @-moz-keyframes JS     { 0%  { width:0px;} 100%{ width:20%;}  }
+  @-moz-keyframes ProblemSolver     { 0%  { width:0px;} 100%{ width:100%;}  }
+  @-moz-keyframes B2B  { 0%  { width:0px;} 100%{ width:100%;}  }
   
-  @-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:100%;}  }
-  @-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-  @-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-  @-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
-  */
+  @-webkit-keyframes HTML      { 0%  { width:0px;} 100%{ width:50%;}  }
+  @-webkit-keyframes CSS        { 0%  { width:0px;} 100%{ width:50%;}  }
+  @-webkit-keyframes JS     { 0%  { width:0px;} 100%{ width:20%;}  }
+  @-webkit-keyframes ProblemSolver     { 0%  { width:0px;} 100%{ width:100%;}  }
+  @-webkit-keyframes B2B   { 0%  { width:0px;} 100%{ width:100%;}  }
+  
