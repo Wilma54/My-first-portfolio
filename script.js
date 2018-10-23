@@ -6,6 +6,8 @@ jQuery(document).ready(function(){
 	});
 });
 
+
+/*
 function openTab(tabName) {
     var i, x;
     x = document.getElementsByClassName("containerTab");
@@ -14,3 +16,4 @@ function openTab(tabName) {
     }
     document.getElementById(tabName).style.display = "block";
 }
+*/
