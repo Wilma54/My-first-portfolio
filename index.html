@@ -13,42 +13,43 @@
 <link rel="stylesheet" type="text/css" href="main.css">
 
 <header>
-	<nav class="navigation">
+	<nav class="nav">
         <ul class="menu">
-          <li class="li"><a href="#">Home /</a></li>
-          <li class="li"><a href="#">About me /</a></li>
-          <li class="li"><a href="#">Skills /</a></li>
-          <li class="li"><a href="#">Projectsv/</a></li>
-          <li class="li"><a href="#">Contact</a></li>
+          <li class="li"><a href="#hey">Home /</a>&nbsp</li>
+          <li class="li"><a href="#about">About me /</a>&nbsp</li>
+          <li class="li"><a href="#skills">Skills /</a>&nbsp</li>
+          <li class="li"><a href="#projects">Projects /</a>&nbsp</li>
+          <li class="li"><a href="#post">Contact</a>&nbsp</li>
         </ul>
       </nav>
-	
 </header>
 
 <body>
 
 <!--Short Susanne-->
-    <h1>Hey, I'm Susanne</h1> 
+<div class="hey">
+<h1>Hey, I'm Susanne</h1> 
 
-    <img class="susanne" src="images/IMG_5153.jpg" class="left">
+<img class="susanne" src="images/IMG_5153.jpg" class="left">
 <h2>Former baby, former University Student, former employee, current Student Front End Developer. The call in my life</h2>
 <h2> Dedicated and passionate Student at KYH. Main goal to become one of the best in coding and designing</h3>
 <p>"Aim for the moon, but in your way there don´t forget to dance with the stars and shine as bright as the sun"</p>
-
+</div>	
 
 <!--About OBS! "egen sida"-->
+<div class="about">
 
 <h1>About</h1>
 
-<h3>A gaming nerd who loves ......
+<h3 id="about">A gaming nerd who loves ......
 	Student Front End Developing, the new love in my life. 
 	Previous: master of science in business administraion/finance.
 	14 years of slaving in the magazine business 
 </h3>
-
+</div>
 
 <!--Skillbar OBS! "egen sida"-->
-
+<div class="skills">
 <h1>Skills Bar</h1>
 
 <ul id="skill">
@@ -59,10 +60,13 @@
 	<li><span class="bar B2B"></span><h3>B2B</h3></li>
 </ul>
 
+</div>
+
 <!--Projects OBS "egen sida"-->
+<div class="project"></div>
 
 <!--contact OBS "egen sida" formulär för att skicka in bla bla-->
-
+<div class="post">
 <form class="postcard" action="">
 		<div class="name absolute">
 		  <label for="name-name" >Name: </label>
@@ -89,7 +93,8 @@
 		<div class="send-btn absolute">
 		  <button type="submit" name="button">Send</button>
 		</div>
-	  </form>
+		</form>
+	</div>
 
 
 </body>
