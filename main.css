@@ -13,19 +13,19 @@ body {
     height: 8%;
     border-radius:20px;
     /*position: relative;*/
-    /*font-family: 'Amatic SC', cursive; */
+    font-family: 'Amatic SC', cursive; 
     font-size: xx-large;
 }
 
   h1 {
     display:flex;
     justify-content: center;
-    /*font-family: 'Amatic SC', cursive; */
+    font-family: 'Amatic SC', cursive; 
     font-size: xx-large;
   }
 
   h2 {
-    /*font-family: 'Amatic SC', cursive; */
+    font-family: 'Amatic SC', cursive; 
     text-align: center;
   }
   

@@ -1,10 +1,4 @@
-/*jQuery(document).ready(function(){
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
-}); */
+
 
 // ANCHORS
 var allLinks = document.getElementsByClassName('links');
@@ -44,17 +38,19 @@ function resetField (hey) {
     for (let i=0; i < myArr.length; i++) {
         if (myArr[i].id !=hey) {
             myArr[i].style.display = "none";
+        } else {
+            myArr[i].style.display = "block";
         }
     }
 }
 
-/*
+
 home.addEventListener('click', doMore); 
 aboutme.addEventListener('click', doMore); 
 skills.addEventListener('click', doMore); 
 projects.addEventListener('click', doMore); 
 contact.addEventListener('click', doMore); 
-*/
+
 
 // CALLBACKS
     
@@ -89,7 +85,13 @@ function doStuff(ev) {
 
     } }
     
-    
+    jQuery(document).ready(function(){
+        jQuery('.skillbar').each(function(){
+            jQuery(this).find('.skillbar-bar').animate({
+                width:jQuery(this).attr('data-percent')
+            },6000);
+        });
+    });  
 
 
 
