@@ -92,6 +92,9 @@ a {
   color:black;
   
 } 
+.about-me-hidden, .skills-hidden, .projects-hidden, .contact-hidden {
+  display:none;
+}
 
 /*#a::after,::before {
       width: 100%;
