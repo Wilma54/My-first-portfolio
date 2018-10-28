@@ -1,5 +1,5 @@
-body {
-  background-color:rgb(2,201,201);
+body{
+  
 }
 
 .container{
@@ -8,6 +8,12 @@ body {
   flex-direction: column;
   font-family:'Amatic SC', cursive; 
 }
+#home-field {
+  background-color: rgb(2,201,201);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #susanne {
     width: 8%;
     height: 8%;
@@ -96,7 +102,7 @@ a {
   color:black;
   
 } 
-.about-me-hidden, .skills-hidden, .projects-hidden, .contact-hidden {
+.about-me-hidden, .skills-hidden, .project-hidden, .post-hidden {
   display:none;
 }
 
@@ -333,4 +339,15 @@ menu a ::after {
     top: 362px;
   }
   
- 
+ #underconstruction {
+   background-image:url(/images/underconstruction.jpg);
+   /*background-repeat: no-repeat;*/
+   background-attachment: fixed;
+  background-size: cover;
+ }
+ #post-field{
+   background-color: rgb(255, 295, 0);
+ }
+ #skills-field {
+background-color: rgb(255, 295, 0) 
+ }
