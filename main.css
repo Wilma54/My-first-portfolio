@@ -1,9 +1,6 @@
 body {
-  
+  background-color: rgb(2,201,201);
   }
-
-
-
 
 .container{
   display:flex;
@@ -11,56 +8,6 @@ body {
   flex-direction: column;
   font-family:'Amatic SC', cursive; 
 }
-#home-field {
-  background-color: rgb(2,201,201);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#susanne {
-    width: 8%;
-    height: 8%;
-    border-radius:20px;
-    font-family: 'Amatic SC', cursive; 
-    font-size: xx-large;
-    display:flex;
-}
-
-/* Homesite*/
-  h1 {
-    display:flex;
-    justify-content: center;
-    font-family: 'Amatic SC', cursive; 
-    font-size: 60px;
-  }
-
-  h2 {
-    font-family: 'Amatic SC', cursive; 
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  p {
-    font-family: 'Shadows Into Light', cursive;
-    text-align: center;
-  }
- /* body {
-    font-family: 'Ubuntu', sans-serif;
-    width:960px;
-  } */
-  
-  p {
-    color:#525252;
-    font-size:15px;
-  }
-/* Font import */
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
-
-/** {
-  box-sizing: content-box;
-  padding: 0;
-  margin: 0;
-}*/
 
 /*Sitenav*/
 container {
@@ -86,13 +33,6 @@ a {
 @media  (--min-sm) {
  }
 }
-/*.menu > li {
-  @media (--min-sm) {
-    &:not(:last-child) {
-      margin-left: : 40px;
-    }
-  }
-} */
 
 .menu a {
   display: flex;
@@ -108,34 +48,56 @@ a {
 .about-me-hidden, .skills-hidden, .project-hidden, .post-hidden {
   display:none;
 }
-
-/*#a::after,::before {
-      width: 100%;
-      left: 0;
-    } */
-/*
-.menu a ::after, ::before {
-    content: ''; 
-    position: absolute;
-    top: calc(100% + 5px);
-    width: 0;
-    right: 10px;
-    height: 3px;
-  }*/
- /* 
-menu a ::before {
-    transition: width .25s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
-    background: #2196f3;
-  }
-  
-menu a ::after {
-    transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
-    background: #F44336; 
-  } */
-
-  .menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid white;
   }
+  
+  /*Homesite*/
+
+ #home-field {
+  background-color: rgb(2,201,201);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#susanne {
+    width: 8%;
+    height: 8%;
+    border-radius:20px;
+    font-family: 'Amatic SC', cursive; 
+    font-size: xx-large;
+    display:flex;
+}
+
+  h1 {
+    display:flex;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive; 
+    font-size: 60px;
+  }
+
+  h2 {
+    font-family: 'Amatic SC', cursive; 
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+  }
+
+  
+  p {
+    color:#525252;
+    font-size:15px;
+  }
+/* Font import */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+
+
+
 
    /*Skills Bar*/
 
@@ -257,9 +219,9 @@ menu a ::after {
   @-webkit-keyframes ProblemSolver     { 0%  { width:0px;} 100%{ width:100%;}  }
   @-webkit-keyframes B2B   { 0%  { width:0px;} 100%{ width:100%;}  }
 
-  /* Contact */
-
   
+  
+  /* Contact */
   .absolute {
     position: absolute;
   }
@@ -354,3 +316,43 @@ menu a ::after {
   #skills-field {
  background-color: rgb(255, 295, 0) 
   }
+
+  /*#a::after,::before {
+      width: 100%;
+      left: 0;
+    } */
+/*
+.menu a ::after, ::before {
+    content: ''; 
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 0;
+    right: 10px;
+    height: 3px;
+  }*/
+ /* 
+menu a ::before {
+    transition: width .25s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+    background: #2196f3;
+  }
+  
+menu a ::after {
+    transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+    background: #F44336; 
+  } */
+   /* body {
+    font-family: 'Ubuntu', sans-serif;
+    width:960px;
+  } */
+  /** {
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}*/
+/*.menu > li {
+  @media (--min-sm) {
+    &:not(:last-child) {
+      margin-left: : 40px;
+    }
+  }
+} */
