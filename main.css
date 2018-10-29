@@ -58,6 +58,7 @@ a {
   background-color: rgb(2,201,201);
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 /*#susanne {
@@ -103,7 +104,14 @@ a {
     font-family: 'Amatic SC', cursive; 
     font-size: 30px;
     font: bolder;
-    list-style-image:"\f0eb";
+    list-style-image:"";
+}
+
+#about-field{
+  background-color: rgb(255, 295, 0);
+  background-repeat:no-repeat;
+  background-size:cover;
+ 
 }
 
 
