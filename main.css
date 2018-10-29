@@ -60,26 +60,28 @@ a {
   background-repeat: no-repeat;
 }
 
-#susanne {
-    width: 8%;
-    height: 8%;
-    border-radius:20px;
-    font-family: 'Amatic SC', cursive; 
-    font-size: xx-large;
-    display:flex;
-}
-
+/*#susanne {
+  display:flex;
+  justify-content: space-around;
+  margin-left: 15%;
+  width: 8%;
+  height: 8%;
+  border-radius:20px;
+} */
+    
   h1 {
     display:flex;
     justify-content: center;
+    justify-content: space-around;
     font-family: 'Amatic SC', cursive; 
     font-size: 60px;
   }
 
   h2 {
+    display:flex;
     font-family: 'Amatic SC', cursive; 
     font-size: 30px;
-    text-align: center;
+    justify-content: center;
   }
   
   p {
@@ -97,7 +99,7 @@ a {
 
 
 
-
+content:"\f0eb";
 
    /*Skills Bar*/
 
