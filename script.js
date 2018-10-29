@@ -27,6 +27,7 @@ var skillsField = document.getElementById('skills-field');
 var projectField = document.getElementById('project-field');
 var postField = document.getElementById('post-field');
 
+
 // EVENTLISTENERS
 
 for( let i = 0; i < allatags.length; i++ ) {
