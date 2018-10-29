@@ -89,17 +89,32 @@ a {
     text-align: center;
   }
 
-  
   p {
     color:#525252;
     font-size:15px;
   }
+
+  /* aboutme*/
+  .aboutme {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    font-family: 'Amatic SC', cursive; 
+    font-size: 30px;
+    font: bolder;
+    list-style-image:"\f0eb";
+}
+
+
+
+
 /* Font import */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 
 
-content:"\f0eb";
+
 
    /*Skills Bar*/
 
