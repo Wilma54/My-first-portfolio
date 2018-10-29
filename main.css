@@ -1,6 +1,9 @@
-body{
+body {
   
-}
+  }
+
+
+
 
 .container{
   display:flex;
@@ -339,15 +342,15 @@ menu a ::after {
     top: 362px;
   }
   
- #underconstruction {
-   background-image:url(/images/underconstruction.jpg);
-   /*background-repeat: no-repeat;*/
-   background-attachment: fixed;
-  background-size: cover;
- }
- #post-field{
-   background-color: rgb(255, 295, 0);
- }
- #skills-field {
-background-color: rgb(255, 295, 0) 
- }
+  #underconstruction {
+    background-image:url(/images/underconstruction.jpg);
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+   background-size: cover;
+  }
+   #post-field{
+    background-color: rgb(255, 295, 0);
+  }
+  #skills-field {
+ background-color: rgb(255, 295, 0) 
+  }
