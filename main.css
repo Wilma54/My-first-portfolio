@@ -58,18 +58,23 @@ a {
   background-color: rgb(2,201,201);
   background-size: cover;
   background-repeat: no-repeat;
- 
-
 }
 
-/*#susanne {
+.flex-item{
   display:flex;
-  justify-content: space-around;
-  margin-left: 15%;
-  width: 8%;
-  height: 8%;
-  border-radius:20px;
-} */
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#susanne {
+  display:flex;
+  width:10%;
+  height:10%;
+  justify-content: center;
+  border-radius:10px;
+  
+}
     
   h1 {
     display:flex;
