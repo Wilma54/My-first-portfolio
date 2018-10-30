@@ -253,7 +253,8 @@ a {
   
   input,
   textarea {
-  font-family: 'Amatic SC', cursive; 
+  font-family: 'Amatic SC', cursive;
+  color: black; 
   background:transparent;
   border: none;
   }
@@ -299,7 +300,7 @@ a {
   }
   
   .contact textarea {
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 0px;
     font-size: 0.7em;
     background: transparent;
