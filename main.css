@@ -1,6 +1,8 @@
 body {
   background-color: rgb(2,201,201);
-  }
+
+}
+  
 
 
   /*Sitenav*/
@@ -244,12 +246,16 @@ a {
   /* Contact */
   .absolute {
     position: absolute;
+    margin: 0;
+    font-size: 21px;
+    box-sizing: border-box;
   }
   
   input,
   textarea {
   font-family: 'Amatic SC', cursive; 
-  border-radius: 10px;
+  background:transparent;
+  border: none;
   }
   
   input {
@@ -261,16 +267,14 @@ a {
   }
   
   .postcard {
-    font-size:23px;
-    box-sizing:border-box;
     position: relative;
-    background:url("images/postcard.jpg"); /*köp vykort plus frimärke*/
-    /*background-image: url("images/frimärke.jpeg");*/
-    width: 740px;
-    height: 498px;
+    width:740px;
+    height:498px;
     margin: 0 auto;
+    background:url("images/vykort2.jpeg"); 
     font-family: 'Amatic SC', cursive; 
     /*background: transparent;*/
+    border: 2px solid #ccc;
     box-shadow: 7px 7px 20px #555;
   }
   
