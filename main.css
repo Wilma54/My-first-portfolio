@@ -58,8 +58,7 @@ a {
   background-color: rgb(2,201,201);
   background-size: cover;
   background-repeat: no-repeat;
-  height:100%;
-  width: 100%;
+ 
 
 }
 
@@ -108,16 +107,6 @@ a {
     font: bolder;
     list-style-image:"";
 }
-
-#about-field{
-  background-color: rgb(255, 295, 0);
-  background-repeat:no-repeat;
-  background-size:cover;
- 
- 
-}
-
-
 
 
 /* Font import */
