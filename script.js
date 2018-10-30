@@ -57,46 +57,6 @@ contact.addEventListener('click', doMore);
 
 // CALLBACKS
     
-// we use event object and switch statement	
-/*function doStuff(ev) {			
-    // we get the 'id' of the clicked link
-    var targetId = ev.target.id;
-   console.log (targetId);
-    switch(targetId) {					
-        case ('home'):
-        
-        resetField(homeField.id);						
-            home1.classList.toggle('home-hidden');
-            break;
-        case ('about-me'):
-        aboutField.style.backgroundColor = "transparent";
-        myBody.style.backgroundColor = "pink";
-        resetField(aboutField.id);					
-        aboutme2.classList.toggle('about-me-hidden');
-            break;
-        case ('skills'):	
-        skillsField.style.backgroundColor = "transparent";
-        myBody.style.backgroundColor = "light-green";
-        resetField(skillsField.id);					
-        skills3.classList.toggle('skills-hidden');
-            break;
-            case ('projects'):	
-            projectField.style.backgroundColor = "transparent";
-            myBody.style.backgroundColor = "light-blue";
-            resetField(projectField.id);		
-            project4.classList.toggle('projects-hidden');
-            break;
-            case ('contact'):	
-            postField.style.backgroundColor = "transparent";
-            myBody.style.backgroundColor = "lilac";
-            resetField(postField.id);					
-            post5.classList.toggle('contact-hidden');
-            break;
-        default:
-            break;
-
-    } 
-}*/
 // we use event object and switch statement    
 function doStuff(ev) {
     // we get the ‘id’ of the clicked link
@@ -104,33 +64,33 @@ function doStuff(ev) {
 
     switch (targetId) {
         case ('home'):
-        home.style.backgroundColor ="transparent";
-        myBody.style.backgroundColor ="2, 201,201";
             resetField(homeField.id);            
+            homeField.style.backgroundColor = "transparent";
+            myBody.style.backgroundColor = "#79C753";
             home1.classList.toggle('home-hidden');
             break;
         case ('about-me'):
             resetField(aboutField.id);
             aboutField.style.backgroundColor = "transparent";
-            myBody.style.backgroundColor = "pink";
+            myBody.style.backgroundColor = "#DBB1CD";
             aboutme2.classList.toggle('about-me-hidden');
             break;
         case ('skills'):
             resetField(skillsField.id);
             skillsField.style.backgroundColor = "transparent";
-            myBody.style.backgroundColor = "yellow";
+            myBody.style.backgroundColor = "#BFD641";
             skills3.classList.toggle('skills-hidden');
             break;
         case ('projects'):
             resetField(projectField.id);
             projectField.style.backgroundColor = "transparent";
-            myBody.style.backgroundColor = "light-blue";
+            myBody.style.backgroundColor = "#DFCFBE";
             project4.classList.toggle('projects-hidden');
             break;
         case ('contact'):
             resetField(postField.id);
             postField.style.backgroundColor = "transparent";
-            myBody.style.backgroundColor = "gray";
+            myBody.style.backgroundColor = "#95DEE3";
             post5.classList.toggle('contact-hidden');
             break;
         default:
