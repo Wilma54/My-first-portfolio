@@ -2,18 +2,14 @@ body {
   background-color: rgb(2,201,201);
   }
 
+
+  /*Sitenav*/
 .container{
   display:flex;
   justify-content: center;
   flex-direction: column;
   font-family:'Amatic SC', cursive; 
-}
-
-/*Sitenav*/
-container {
-  display:flex;
-  list-style: none;
-  font-family: 'Roboto', sans-serif;
+  justify-content: space-around;
 }
 
 a {
@@ -116,10 +112,6 @@ a {
 
 /* Font import */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
-
-
-
-
 
    /*Skills Bar*/
 
@@ -242,6 +234,12 @@ a {
   @-webkit-keyframes B2B   { 0%  { width:0px;} 100%{ width:100%;}  }
 
   
+  #underconstruction {
+    background-image:url(/images/underconstruction.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   /* Contact */
   .absolute {
@@ -326,32 +324,24 @@ a {
     top: 362px;
   }
   
-  #underconstruction {
-    background-image:url(/images/underconstruction.jpg);
-    /*background-repeat: no-repeat;*/
-    background-attachment: fixed;
-   background-size: cover;
-  }
+
 
   /* Style buttons */
 
 .flexbox{
   display:flex;
   justify-content: center;
- margin-top: 5%;
-  
- 
-  
-}
+ margin-top: 3%;
+  }
+
 .btn {
-  background-color: DodgerBlue; /* Blue background */
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  font-size: 16px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
+  background-color: DodgerBlue; 
+  border: none; 
+  color: white; 
+  font-size: 16px; 
+  cursor: pointer; 
 }
 
-/* Darker background on mouse-over */
 .btn:hover {
   background-color: RoyalBlue;
 }

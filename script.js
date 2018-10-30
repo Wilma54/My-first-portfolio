@@ -66,7 +66,7 @@ function doStuff(ev) {
         case ('home'):
             resetField(homeField.id);            
             homeField.style.backgroundColor = "transparent";
-            myBody.style.backgroundColor = "#79C753";
+            myBody.style.backgroundColor = "#45B8AC";
             home1.classList.toggle('home-hidden');
             break;
         case ('about-me'):
@@ -78,7 +78,7 @@ function doStuff(ev) {
         case ('skills'):
             resetField(skillsField.id);
             skillsField.style.backgroundColor = "transparent";
-            myBody.style.backgroundColor = "#BFD641";
+            myBody.style.backgroundColor = "#ECDB54";
             skills3.classList.toggle('skills-hidden');
             break;
         case ('projects'):
