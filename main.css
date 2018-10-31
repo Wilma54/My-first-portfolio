@@ -1,10 +1,7 @@
 body {
   background-color: rgb(2,201,201);
-
 }
   
-
-
   /*Sitenav*/
 .container{
   display:flex;
@@ -51,7 +48,6 @@ a {
   }
   
   /*Homesite*/
-
  #home-field {
   background-color: rgb(2,201,201);
   background-size: cover;
@@ -108,7 +104,7 @@ a {
     font-family: 'Amatic SC', cursive; 
     font-size: 30px;
     font: bolder;
-    list-style-image:"";
+    list-style-image:url(images/marker1.png);
 }
 
 
