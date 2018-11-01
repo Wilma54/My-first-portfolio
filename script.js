@@ -65,31 +65,31 @@ function doStuff(ev) {
     switch (targetId) {
         case ('home'):
             resetField(homeField.id);            
-            homeField.style.backgroundColor = "transparent";
+         homeField.style.backgroundColor = "transparent";
             myBody.style.backgroundColor = "#45B8AC";
             home1.classList.toggle('home-hidden');
             break;
         case ('about-me'):
             resetField(aboutField.id);
-            aboutField.style.backgroundColor = "transparent";
+           // aboutField.style.backgroundColor = "transparent";
             myBody.style.backgroundColor = "#DBB1CD";
             aboutme2.classList.toggle('about-me-hidden');
             break;
         case ('skills'):
             resetField(skillsField.id);
-            skillsField.style.backgroundColor = "transparent";
+         //   skillsField.style.backgroundColor = "transparent";
             myBody.style.backgroundColor = "#ECDB54";
             skills3.classList.toggle('skills-hidden');
             break;
         case ('projects'):
             resetField(projectField.id);
-            projectField.style.backgroundColor = "transparent";
+           // projectField.style.backgroundColor = "transparent";
             myBody.style.backgroundColor = "#DFCFBE";
             project4.classList.toggle('projects-hidden');
             break;
         case ('contact'):
             resetField(postField.id);
-            postField.style.backgroundColor = "transparent";
+         //   postField.style.backgroundColor = "transparent";
             myBody.style.backgroundColor = "#95DEE3";
             post5.classList.toggle('contact-hidden');
             break;

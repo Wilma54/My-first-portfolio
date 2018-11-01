@@ -25,9 +25,8 @@ a {
   display: flex;  
   list-style:none;
   justify-content: flex-end;
-@media  (--min-sm) {
- }
 }
+
 
 .menu a {
   display: flex;
@@ -40,13 +39,19 @@ a {
   color:black;
   
 } 
-.about-me-hidden, .skills-hidden, .project-hidden, .post-hidden {
-  display:none;
-}
+
 .menu a:hover {
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
   }
-  
+
+  .about-me-hidden, .skills-hidden, .project-hidden, .post-hidden {
+    display:none;
+  }
+
+.aboutField, .skillsField, .projectField, .postField{
+    background:transparent;
+  }
+
   /*Homesite*/
  #home-field {
   background-color: rgb(2,201,201);
@@ -67,8 +72,7 @@ a {
   height:10%;
   justify-content: center;
   border-radius:10px;
-  
-}
+  }
     
   h1 {
     display:flex;
@@ -96,17 +100,19 @@ a {
   }
 
   /* aboutme*/
-  .aboutme {
+  .fa-ul {
     display:flex;
     flex-direction: column;
     align-items:center;
     justify-content: space-around;
     font-family: 'Amatic SC', cursive; 
-    font-size: 30px;
-    font: bolder;
-    list-style-image:url(images/marker1.png);
+    font-size: 27px;
+    font: bolder;   
 }
 
+.fa-ul > li {
+  height: 2em;
+}
 
 /* Font import */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
@@ -275,6 +281,22 @@ a {
     box-shadow: 7px 7px 20px #555;
   }
   
+/*@media screen and (max-width: 768px) {
+  .postcard {
+    position: relative;
+    max-width: 300px;
+    max-height: 200px;
+   /* background:url("images/vykort_400.jpeg"); 
+    background-repeat: no-repeat;
+  }
+  form{
+    position: absolute;
+    top:0;
+  }
+}
+
+/*media screen 496px
+*/
   .name {
     right: 40px;
     top: 185px;
@@ -303,8 +325,14 @@ a {
     letter-spacing: 2px;
     line-height: 1,5em;
     overflow: auto;
-  }
   
+  }
+  ::placeholder {
+    font-size:15px;
+    font:bold;
+    color:black; 
+      }
+
   .send-btn {
     right: 130px;
     top: 360px;
@@ -325,14 +353,11 @@ a {
     top: 362px;
   }
   
-
-
   /* Style buttons */
-
 .flexbox{
   display:flex;
   justify-content: center;
- margin-top: 3%;
+  margin-top:3%;
   }
 
 .btn {
@@ -347,5 +372,14 @@ a {
   background-color: RoyalBlue;
 }
 
-
+.clickable {
+  display:flex;
+  justify-content: flex-end;
+  margin-top:-3%;
+}
+.clickable a{
+  background-color: DodgerBlue; 
+ border-radius:5px;
+ font-size:32px;
+}
   
