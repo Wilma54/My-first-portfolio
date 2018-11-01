@@ -2,7 +2,8 @@ body {
   background-color: rgb(2,201,201);
 }
   
-  /*Sitenav*/
+/*Sitenav*/
+
 .container{
   display:flex;
   justify-content: center;
@@ -27,7 +28,6 @@ a {
   justify-content: flex-end;
 }
 
-
 .menu a {
   display: flex;
   font-size: 15px;
@@ -37,14 +37,13 @@ a {
   padding: 3px 0;
   margin-bottom:10px;
   color:black;
-  
-} 
+  } 
 
 .menu a:hover {
   border-bottom: 1px solid white;
   }
 
-  .about-me-hidden, .skills-hidden, .project-hidden, .post-hidden {
+.about-me-hidden, .skills-hidden, .project-hidden, .post-hidden {
     display:none;
   }
 
@@ -52,7 +51,8 @@ a {
     background:transparent;
   }
 
-  /*Homesite*/
+/*Homesite*/
+
  #home-field {
   background-color: rgb(2,201,201);
   background-size: cover;
@@ -100,6 +100,7 @@ a {
   }
 
   /* aboutme*/
+
   .fa-ul {
     display:flex;
     flex-direction: column;
@@ -110,14 +111,14 @@ a {
     font: bolder;   
 }
 
-.fa-ul > li {
-  height: 2em;
+  .fa-ul > li {
+  height: 3em;
 }
 
 /* Font import */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
-   /*Skills Bar*/
+/*Skills Bar*/
 
    #skill {
     list-style: none;
@@ -132,12 +133,12 @@ a {
   #skill li { 
     margin-bottom:50px; 
     background:#e9e5e2;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));*/
     background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
-    background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+    /*background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
     background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
     background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
-    background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
+    background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  */
     height:20px; 
     border-radius:10px; 
     -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
@@ -165,12 +166,12 @@ a {
     -moz-animation:HTML 2s ease-out;
     -webkit-animation:HTML 2s ease-out;
     background-color: #f674a4;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));*/
     background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
-    background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+   /* background-image: -moz-linear-gradient(top, #f674a4, #e06995);
     background-image: -ms-linear-gradient(top, #f674a4, #e06995);
     background-image: -o-linear-gradient(top, #f674a4, #e06995);
-    background-image: linear-gradient(top, #f674a4, #e06995);
+    background-image: linear-gradient(top, #f674a4, #e06995);*/
   }
   
   .CSS {
@@ -178,12 +179,12 @@ a {
     -moz-animation:CSS 2s ease-out;
     -webkit-animation:CSS 2s ease-out;
     background-color: #f0bb4b;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
     background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
     background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
     background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
     background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
-    background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: linear-gradient(top, #f0bb4b, #d9aa44);*/
   }
   
   .JS {
@@ -191,12 +192,12 @@ a {
     -moz-animation:JS 2s ease-out;
     -webkit-animation:JS 2s ease-out;
     background-color: #a1ce5b;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
     background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
     background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
     background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
     background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
-    background-image: linear-gradient(top, #a1ce5b, #91ba52);
+    background-image: linear-gradient(top, #a1ce5b, #91ba52);*/
   }
  
   .Problemsolver {
@@ -204,12 +205,12 @@ a {
     -moz-animation:ProblemSolver 2s ease-out;
     -webkit-animation:ProblemSolver 2s ease-out;
     background-color: #66b3cc;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
     background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
     background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
     background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
     background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
-    background-image: linear-gradient(top, #66b3cc, #5da3ba);	
+    background-image: linear-gradient(top, #66b3cc, #5da3ba);	*/
   }
   
   .B2B {
@@ -217,24 +218,24 @@ a {
     -moz-animation:B2B 2s ease-out;
     -webkit-animation:B2B 2s ease-out;
     background-color:#800080;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#800080), to#590059));
+   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#800080), to#590059));
     background-image: -webkit-linear-gradient(top, #800080, #590059);
     background-image: -moz-linear-gradient(top, #800080, #590059);
     background-image: -ms-linear-gradient(top, #800080, #590059);
     background-image: -o-linear-gradient(top, #800080, ##590059);
-    background-image: linear-gradient(top,#800080, #590059);	
+    background-image: linear-gradient(top,#800080, #590059);*/	
   }
 
-  @-moz-keyframes HTMK {0%  { width:0px;} 100%{ widows: 50px;%;}  }
+  @-moz-keyframes HTML {0%  { width:0px;} 100%{ widows: 50px;%;}  }
   @-moz-keyframes CSS      { 0%  { width:0px;} 100%{ width:50%;}  }
-  @-moz-keyframes JS     { 0%  { width:0px;} 100%{ width:20%;}  }
-  @-moz-keyframes ProblemSolver     { 0%  { width:0px;} 100%{ width:100%;}  }
+  @-moz-keyframes JS     { 0%  { width:0px;} 100%{ width:10%;}  }
+  @-moz-keyframes ProblemSolver     { 0%  { width:0px;} 100%{ width:90%;}  }
   @-moz-keyframes B2B  { 0%  { width:0px;} 100%{ width:100%;}  }
   
   @-webkit-keyframes HTML      { 0%  { width:0px;} 100%{ width:50%;}  }
   @-webkit-keyframes CSS        { 0%  { width:0px;} 100%{ width:50%;}  }
-  @-webkit-keyframes JS     { 0%  { width:0px;} 100%{ width:20%;}  }
-  @-webkit-keyframes ProblemSolver     { 0%  { width:0px;} 100%{ width:100%;}  }
+  @-webkit-keyframes JS     { 0%  { width:0px;} 100%{ width:10%;}  }
+  @-webkit-keyframes ProblemSolver     { 0%  { width:0px;} 100%{ width:90%;}  }
   @-webkit-keyframes B2B   { 0%  { width:0px;} 100%{ width:100%;}  }
 
   
@@ -294,9 +295,9 @@ a {
     top:0;
   }
 }
-
 /*media screen 496px
 */
+
   .name {
     right: 40px;
     top: 185px;
@@ -329,7 +330,7 @@ a {
   }
   ::placeholder {
     font-size:15px;
-    font:bold;
+    font: 900;
     color:black; 
       }
 
@@ -353,7 +354,7 @@ a {
     top: 362px;
   }
   
-  /* Style buttons */
+/* Style buttons */
 .flexbox{
   display:flex;
   justify-content: center;
