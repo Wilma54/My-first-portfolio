@@ -47,7 +47,6 @@ function resetField (hey) {
     }
 }
 
-
 home.addEventListener('click', doMore); 
 aboutme.addEventListener('click', doMore); 
 skills.addEventListener('click', doMore); 
