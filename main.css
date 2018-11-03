@@ -227,7 +227,7 @@ a {
   }
 
   @-moz-keyframes HTML {0%  { width:0px;} 100%{ widows: 50px;%;}  }
-  @-moz-keyframes CSS      { 0%  { width:0px;} 100%{ width:50%;}  }
+  ¨ CSS      { 0%  { width:0px;} 100%{ width:50%;}  }
   @-moz-keyframes JS     { 0%  { width:0px;} 100%{ width:10%;}  }
   @-moz-keyframes ProblemSolver     { 0%  { width:0px;} 100%{ width:90%;}  }
   @-moz-keyframes B2B  { 0%  { width:0px;} 100%{ width:100%;}  }
@@ -374,13 +374,13 @@ a {
 }
 
 .clickable {
+  align-items: flex-end;
   display:flex;
-  justify-content: flex-end;
-  margin-top:-3%;
+  margin-top:3%;
 }
 .clickable a{
-  background-color: DodgerBlue; 
- border-radius:5px;
- font-size:32px;
+background-color: DodgerBlue; 
+border-radius:5px;
+font-size:30px;
 }
   
