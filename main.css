@@ -101,18 +101,19 @@ a {
 
   /* aboutme*/
 
-  .fa-ul {
+  .flex-container {
     display:flex;
     flex-direction: column;
-    align-items:center;
-    justify-content: space-around;
+    justify-content: center;
     font-family: 'Amatic SC', cursive; 
     font-size: 27px;
     font: bolder;   
 }
 
   .fa-ul > li {
-  height: 3em;
+    flex-direction: column;
+    display:flex;
+    /*height: 3em;*/
 }
 
 /* Font import */
@@ -376,11 +377,31 @@ a {
 .clickable {
   align-items: flex-end;
   display:flex;
-  margin-top:3%;
+  margin-top:-3%;
 }
 .clickable a{
 background-color: DodgerBlue; 
 border-radius:5px;
-font-size:30px;
+font-size:35px;
 }
-  
+
+/*Media queries */
+
+@media (min-width:769px) {
+
+  .main-header, .menu, {
+    display:flex;
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width:1025px){
+  .main-header {
+    flex-direction:row;
+    justify-content: space-between;
+  }
+}
